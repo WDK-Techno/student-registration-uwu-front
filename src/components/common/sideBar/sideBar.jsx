@@ -39,31 +39,31 @@ const SideBar = () => {
 
 
     const updatedRoutes = [
-      { name: "Events", image: eventicon, path: "dashboard", available: true },
-      {
-        name: "ExCom",
-        image: dashboardIcon,
-        path: "dashboard/executive-committee",
-        available: isExcomAvailable,
-      },
-      {
-        name: "Project",
-        image: projecticon,
-        path: "dashboard/project",
-        available: true,
-      },
-      {
-        name: "Finance",
-        image: financeicon,
-        path: "dashboard/finance",
-        available: isFinanceAvailable,
-      },
-      {
-        name: "Service",
-        image: serviceicon,
-        path: "dashboard/service",
-        available: true,
-      },
+      // { name: "Events", image: eventicon, path: "dashboard", available: true },
+      // {
+      //   name: "ExCom",
+      //   image: dashboardIcon,
+      //   path: "dashboard/executive-committee",
+      //   available: isExcomAvailable,
+      // },
+      // {
+      //   name: "Project",
+      //   image: projecticon,
+      //   path: "dashboard/project",
+      //   available: true,
+      // },
+      // {
+      //   name: "Finance",
+      //   image: financeicon,
+      //   path: "dashboard/finance",
+      //   available: isFinanceAvailable,
+      // },
+      // {
+      //   name: "Service",
+      //   image: serviceicon,
+      //   path: "dashboard/service",
+      //   available: true,
+      // },
       {
         name: "Other",
         image: othericon,
@@ -86,7 +86,7 @@ const SideBar = () => {
     >
       <div className="w-100 align-items-center align-content-center text-center">
         <Link to="/dashboard" className="text-decoration-none">
-          <img className="side-bar-logo" src={sbLogoWhite} loading="lazy" />
+          {/* <img className="side-bar-logo" src={sbLogoWhite} loading="lazy" /> */}
         </Link>
       </div>
       <hr className="text-white" />

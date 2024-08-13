@@ -34,16 +34,16 @@ const AuthLayout = ({ type, children }) => {
             <div className='row mt-5'>
                 <div className='col-md-6 d-none d-md-block  p-5'>
                     <div className='d-flex align-items-start'>
-                        <img src={logo} className='logo-image w-25 img-fluid' />
+                        {/* <img src={logo} className='logo-image w-25 img-fluid' /> */}
                     </div>
                     <div className='d-flex align-items-start mt-5 text-third'>
-                        <h1>IEEE Student Branch</h1>
+                        <h1>Student Registration System</h1>
                     </div>
                     <div className='d-flex align-items-start mt-1 text-third'>
                         <h6>Uva Wellassa University Of Sri Lanka</h6>
                     </div>
                     <div className='d-flex align-items-start mt-5 w-75 text-third'>
-                        <p>The IEEE Student Branch System provides students with opportunities for technical development, networking, and innovation in engineering fields</p>
+                        <p>Uva Wellassa University is the first Entrepreneurial University, providing education to the students focusing on employers’ needs and entrepreneurship. The new course driven structure of education facilitates interdisciplinarity, generates the knowledge base for education and practically enlightens their path. Value addition to national resource base caters for sustainable development of the nation.</p>
                     </div>
                     <div className='d-flex align-items-end justify-content-end  mt-3 text-end'>
                         <img src={getImage()} className='w-50 img-fluid' />
