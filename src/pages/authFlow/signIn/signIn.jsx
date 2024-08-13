@@ -81,7 +81,7 @@ export default function SignIN() {
       <div className='d-flex w-100 justify-content-between align-items-start'>
         <div className='d-flex flex-column '>
           <div>
-            <span className='h6'>Welcome to </span><span className='h6 text-cl-primary fw-bold'>IEEE</span>
+            <span className='h6'>Welcome to </span><span className='h6 text-cl-primary fw-bold'>UWU</span>
           </div>
           <div className='mt-4'>
             <h1>Sign in</h1>
